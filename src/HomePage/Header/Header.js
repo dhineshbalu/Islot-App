@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <div >
-           <h3 id="app_name"><center>Islot App</center></h3>
+           <h3 id="HP_app_name"><center>Islot App</center></h3>
       </div> 
     );
   }

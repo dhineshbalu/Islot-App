@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import Header from './Header/Header';
 import Content from './Content/Content';
 
+import fire from '../Fire';
+
 class HomePage extends Component {
   constructor()
   {
@@ -20,16 +22,7 @@ class HomePage extends Component {
   login(name,password)
   {
     console.log(name + " " +  password);
-  // this.setState({
-  //   loginDetails:{
-  //   name:name,
-  //   password:password
-  //   }
-  // },()=>
-  // {
-  // console.log(this.state.loginDetails.name);
-  // });
-
+  
 
   }
   render() {

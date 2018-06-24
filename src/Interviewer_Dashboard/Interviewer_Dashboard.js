@@ -1,8 +1,13 @@
 import React, { Component } from 'react';
 import './Interviewer_Dashboard.css';
+import fire from '../Fire';
 class Interviewer_Dashboard extends Component {
     constructor() {
         super();
+    }
+    signOut()
+    {
+        fire.auth().signOut();
     }
     render() {
         return (
@@ -15,7 +20,7 @@ class Interviewer_Dashboard extends Component {
                         <span id="ID_main_head">Interviewer Dashboard</span>
 
                         <div class="dropdown" id="ID_settings_page">
-                            <a  class="dropdown-toggle" type="button" data-toggle="dropdown"><i id="settings" class="fas fa-cogs"></i>
+                            <a  class="dropdown-toggle" type="button" data-toggle="dropdown"><i id="ID_settings" class="fas fa-cogs"></i>
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a id="ID_settings_name" href="#">Profile settings</a></li>
@@ -23,15 +28,41 @@ class Interviewer_Dashboard extends Component {
                                 <li><a id="ID_settings_name" href="#">Skill Management</a></li>
                             </ul>
                         </div>
-
+                        <button id="ID_logout"class="btn btn-lg btn-danger" onClick={this.signOut}>Logout</button>
 
                     </div>
+
+                    
                 </nav>
                 <div  class="row">
                 <div id="ID_box_container"class="col-lg-9 line">
                     <h3 id="ID_rec">Recent Events</h3>
                     <div class="row">
                         <div id="ID_card" class="col-lg-3">
+                            <h3 id="ID_card_heading">Angular 4</h3>
+                            <h4 id="ID_card_date">25-01-1997</h4>
+                            <h4 id="ID_card_start_time">Start Time: <span id="ID_st">10: 00 AM</span></h4>
+                            <h4 id="ID_card_stop_time">End Time: <span id="ID_et">1: 00PM</span></h4>
+                            <button id="ID_view_data" type="button" class="btn btn-lg btn-success">Click</button>
+                        </div>
+
+                           <div id="ID_card" class="col-lg-3">
+                            <h3 id="ID_card_heading">Angular 4</h3>
+                            <h4 id="ID_card_date">25-01-1997</h4>
+                            <h4 id="ID_card_start_time">Start Time: <span id="ID_st">10: 00 AM</span></h4>
+                            <h4 id="ID_card_stop_time">End Time: <span id="ID_et">1: 00PM</span></h4>
+                            <button id="ID_view_data" type="button" class="btn btn-lg btn-success">Click</button>
+                        </div>
+
+                           <div id="ID_card" class="col-lg-3">
+                            <h3 id="ID_card_heading">Angular 4</h3>
+                            <h4 id="ID_card_date">25-01-1997</h4>
+                            <h4 id="ID_card_start_time">Start Time: <span id="ID_st">10: 00 AM</span></h4>
+                            <h4 id="ID_card_stop_time">End Time: <span id="ID_et">1: 00PM</span></h4>
+                            <button id="ID_view_data" type="button" class="btn btn-lg btn-success">Click</button>
+                        </div>
+
+                           <div id="ID_card" class="col-lg-3">
                             <h3 id="ID_card_heading">Angular 4</h3>
                             <h4 id="ID_card_date">25-01-1997</h4>
                             <h4 id="ID_card_start_time">Start Time: <span id="ID_st">10: 00 AM</span></h4>
@@ -76,7 +107,7 @@ class Interviewer_Dashboard extends Component {
                     </div>
                 </div>
 
-
+        
             </div>
         );
     }

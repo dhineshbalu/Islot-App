@@ -20,14 +20,14 @@ font-family: 'Eater', cursive;
 }
 #ID_head_nav
 {
-    height: 70px;
+    height: 80px;
 }
 #ID_main_head
 {
     color:white;
     font-size: 20px;
     position: relative;
-    left:520px;
+    left:450px;
     top:20px;
     letter-spacing: 3px;
     word-spacing: 4px;
@@ -218,11 +218,10 @@ font-family: 'Eater', cursive;
 {
     width: 450px;
     height: 350px;
-    float: right;
+   
     background-color: #8dd6d2;
     border-radius: 1rem;
-    margin-top:80px;
-    margin-left: 150px;
+    margin-top:90px;
     
 }
 .line
@@ -284,4 +283,11 @@ font-family: 'Eater', cursive;
 {
     margin-left: 80px;
     margin-top: 50px;
+}
+#ID_logout
+{
+    position: relative;
+    left: 830px;
+    top:15px;
+    letter-spacing: 2px;
 }

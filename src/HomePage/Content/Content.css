@@ -1,12 +1,10 @@
 
-body{
 
-}
-.row
+.home_row
 {
-    margin-top:30px;
+    margin-top:0px;
 }
-#signin{
+#HPC_signin{
     height:120px;
     font-size: 30px;
     background-color: #6da845;
@@ -16,7 +14,7 @@ body{
  border-top-right-radius: 2rem;
  font-family: 'Eater', cursive;
 }
-#top_name{
+#HPC_top_name{
    position: relative;
    top:50px;
    margin-left:170px;
@@ -42,11 +40,11 @@ body{
   color:white;
   border-color:white;
 }
-#text
+#HPC_text
 {
     border-radius: 2rem;
 }
-#password
+#HPC_password
 {
     border-radius: 2rem;
 }
@@ -59,7 +57,7 @@ body{
     letter-spacing: 3px;
       transition: all .30s ease-in-out;
 }
-h4{
+#HPC_dont{
     margin-top:20px;
     margin-left:130px;
 
@@ -119,7 +117,7 @@ h4{
 {
     box-shadow: 3px 5px black;
 }
-#about
+#HPC_about
 {
     color:white;
     text-align: center;
@@ -131,7 +129,7 @@ letter-spacing: 3px;
 word-spacing: 4px;
 
 }
-#about_content
+#HPC_about_content
 {
     color:white;
     font-size: 20px;
@@ -145,7 +143,7 @@ font-family: 'Abril Fatface', cursive;
 font-family: 'Permanent Marker', cursive;
 
 }
-#dont
+#HPC_dont
 {
     font-weight: bold;
     letter-spacing: 2px;
